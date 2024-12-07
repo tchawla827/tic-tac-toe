@@ -18,7 +18,7 @@ class gui:
         self.window.title("Tic Tac Toe Game")
         self.window.geometry("400x640")
         self.window.resizable(False, False)
-        self.window.configure(bg="#f1f3f6")
+        self.window.configure(bg="#BEB7BE")
         
         image = Image.open(r"assets/logo3.png")
         image = image.resize((300, 200), Image.Resampling.LANCZOS)
